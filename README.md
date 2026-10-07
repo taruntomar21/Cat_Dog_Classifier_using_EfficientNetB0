@@ -26,11 +26,14 @@ The app also shows the confidence and the top 3 breed/class predictions.
 # 1. (Recommended) create a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
+
+conda deactivate
+conda deactivate
+conda activate catdog
+which streamlit 
  
-# 2. Install dependencies
-pip install -r requirements.txt
- 
-# 3. Start the app
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
  
