@@ -31,7 +31,7 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
  
 # 3. Start the app
-streamlit run app.py
+python -m streamlit run app.py
 ```
  
 The first run downloads the EfficientNetB0 weights (~20 MB) automatically; no model file
