@@ -1,5 +1,7 @@
 streamlit>=1.30
-tensorflow-cpu==2.16.2
+tensorflow-cpu>=2.20; sys_platform != "darwin"
+tensorflow>=2.20; sys_platform == "darwin"
+keras>=3.13
 numpy
-pillow
 pandas
+pillow 
